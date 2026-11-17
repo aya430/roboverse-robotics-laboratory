@@ -109,6 +109,27 @@ roboverse/
 └── .github/workflows/deploy.yml  build and publish to GitHub Pages
 ```
 
+## Developer
+
+<img src="frontend/public/developer.jpg" alt="Dr. Bansilal Bairwa" width="160" align="left" style="margin-right:16px" />
+
+**Developed by Dr. Bansilal Bairwa**
+Assistant Professor | Electric Vehicles | Robotics & Automation | ROS 2 | AI/ML | MATLAB & Simulink
+School of Electrical and Electronics Engineering, REVA University, Bengaluru, India
+
+Ph.D. MNIT Jaipur (2021) · M.Tech. Power & Energy Systems, NIT Karnataka Surathkal (2016) · B.Tech. Electrical Engineering (2014) · PG Certification in Robotics, IIT Palakkad (2026)
+
+85 Scopus-indexed documents · 510 Scopus citations · H-index 15 · 8 Indian patent applications · 12 KSCST-funded projects (10 as PI) · 26 invited expert sessions and keynotes · REVA University Best Researcher Award (2024), two IEEE Best Paper Awards, three Best Poster Awards. Industry collaboration with Bosch Global Software Technologies, MathWorks and CoreEL Technologies. Also developer of **EV MASTER LAB** and the **Robotics & Instrumentation Virtual Lab**.
+
+<br clear="left" />
+
+**Technical training, FDPs & industry–academia collaboration** — customised training programmes, FDPs, hands-on workshops, certification courses and expert lectures in EV technologies and powertrain modelling, Li-ion battery modelling and BMS, battery thermal management, robotics and humanoid robotics, ROS 2, Gazebo / CoppeliaSim / Webots, MoveIt, SolidWorks / Autodesk Fusion, RoboDK, MATLAB / Simulink / Simscape, AI/ML, power electronics and embedded systems, and Python — for UG/PG students, research scholars, faculty and industry engineers.
+
+- Email: [bansilalbairwa@gmail.com](mailto:bansilalbairwa@gmail.com)
+- LinkedIn: [linkedin.com/in/dr-bansilal-bairwa-4816b2106](https://www.linkedin.com/in/dr-bansilal-bairwa-4816b2106/)
+
+The full profile is on the **Developer** page of the live laboratory.
+
 ## Licence and data provenance
 
 Code: MIT. Geometry: original ROBOVERSE procedural models (CC BY 4.0). STEP/IGES import uses
