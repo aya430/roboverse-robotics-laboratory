@@ -5,6 +5,7 @@ import { SimPage } from './ui/SimPage';
 import { WavesPage } from './ui/WavesPage';
 import { Dashboard, LibraryPage, HandsOnPage, ProjectsPage } from './ui/Pages';
 import { DocsPage } from './ui/DocsPage';
+import { DeveloperPage } from './ui/DeveloperPage';
 
 const NAV: [Page, string][] = [
   ['dashboard', 'Dashboard'],
@@ -15,6 +16,7 @@ const NAV: [Page, string][] = [
   ['waves', 'Waveform Analysis'],
   ['projects', 'My Projects'],
   ['docs', 'Documentation'],
+  ['developer', 'Developer'],
 ];
 
 export default function App() {
@@ -31,7 +33,7 @@ export default function App() {
   return (
     <div className="app">
       <div className="topbar">
-        <div className="brand"><div className="brand-mark">R</div><div>ROBOVERSE<br /><small>Virtual Robotics Construction, Assembly & Simulation Lab</small></div></div>
+        <div className="brand" title="Developed by Dr. Bansilal Bairwa"><div className="brand-mark">R</div><div>ROBOVERSE<br /><small>Virtual Robotics Construction, Assembly & Simulation Lab</small></div></div>
         <nav className="nav">
           {NAV.map(([p, label]) => <button key={p} className={page === p ? 'on' : ''} onClick={() => setPage(p)}>{label}</button>)}
         </nav>
@@ -51,6 +53,7 @@ export default function App() {
         {page === 'handson' && <HandsOnPage />}
         {page === 'projects' && <ProjectsPage />}
         {page === 'docs' && <DocsPage />}
+        {page === 'developer' && <DeveloperPage />}
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ import { buildTemplate, getTemplate } from './engine/templates';
 import { registerItem, type CatalogItem } from './engine/catalog';
 import type { V3 } from './engine/math';
 
-export type Page = 'dashboard' | 'build' | 'sim' | 'waves' | 'library' | 'handson' | 'projects' | 'docs';
+export type Page = 'dashboard' | 'build' | 'sim' | 'waves' | 'library' | 'handson' | 'projects' | 'docs' | 'developer';
 export type AsmMode = 'guided' | 'free' | 'challenge';
 export interface LogLine { t: string; level: 'ok' | 'info' | 'warn' | 'error'; text: string }
 
