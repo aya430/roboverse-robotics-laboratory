@@ -7,6 +7,7 @@ import { ItemSpecs } from './Properties';
 import { CadImportDialog } from './CadImportDialog';
 import { CAT_STYLE, download, slug } from './common';
 import { CHALLENGES } from '../engine/challenges';
+import { DeveloperCredit } from './DeveloperPage';
 
 // ------------------------------------------------------------------ Dashboard
 export function Dashboard() {
@@ -76,6 +77,9 @@ export function Dashboard() {
           <b>Roadmap (not yet in this build):</b> humanoid and quadruped labs (floating base, contact), delta / parallel (closed-chain) robots, mobile bases · CAD import pipeline (STEP → GLB) · ROS 2 / MoveIt 2 bridge and Gazebo/MuJoCo backends · sandboxed code execution · server-side accounts. The architecture for these is documented under <a href="#" onClick={(e) => { e.preventDefault(); s.setPage('docs'); }}>Documentation</a>; the engine and project format are designed so they plug in without rework.
         </div>
       </div>
+
+      <div className="h2">Developer</div>
+      <DeveloperCredit />
     </div></div>
   );
 }
